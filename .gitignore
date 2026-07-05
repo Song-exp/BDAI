@@ -1,6 +1,7 @@
 # Data files (Large datasets)
-rtu_data_full.csv
-rtu_data_full.parquet
+data/
+*.csv
+*.parquet
 *.zip
 *.tar.gz
 
@@ -29,7 +30,7 @@ share/python-wheels/
 MANIFEST
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
 # Virtual Environment
@@ -48,6 +49,7 @@ pythonvenv/
 *.sln
 *.swp
 *~
+scratch/
 
 # OS files
 .DS_Store
