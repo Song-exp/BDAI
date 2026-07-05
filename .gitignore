@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Massive raw data directory (exceeds GitHub size limits)
+data/
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# Local IDE and temporary scratch files
+.vscode/
+.idea/
+scratch/
